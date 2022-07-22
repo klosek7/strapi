@@ -4,7 +4,8 @@
   "info": {
     "singularName": "product",
     "pluralName": "products",
-    "displayName": "Products"
+    "displayName": "Products",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,28 @@
     },
     "EAN": {
       "type": "biginteger"
+    },
+    "Szerokosc": {
+      "type": "integer"
+    },
+    "Wysokosc": {
+      "type": "integer"
+    },
+    "Wymiar": {
+      "type": "enumeration",
+      "enum": [
+        "Szerokosc",
+        "Wysokosc"
+      ]
+    },
+    "sd": {
+      "type": "json"
+    },
+    "aa": {
+      "displayName": "AA",
+      "type": "component",
+      "repeatable": false,
+      "component": "aa.aa"
     }
   }
 }
