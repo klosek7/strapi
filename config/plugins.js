@@ -1,4 +1,6 @@
-module.exports = () => {
+module.exports = ({env}) => {
+
+    
     return {
       ckeditor: {
        enabled: true,
@@ -199,9 +201,9 @@ module.exports = () => {
         config: {
           provider: 'cloudinary',
           providerOptions: {
-            cloud_name: env('dvwpxuayu'),
-            api_key: env('941978554592423'),
-            api_secret: env('GcRIwRcruhVIB9HamE_cPzZk6vQ'),
+            cloud_name: env('CLOUDINARY_NAME'),
+            api_key: env('CLOUDINARY_KEY'),
+            api_secret: env('CLOUDINARY_SECRET'),
           },
           actionOptions: {
             upload: {},
