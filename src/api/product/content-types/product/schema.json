@@ -19,29 +19,23 @@
       "type": "string"
     },
     "EAN": {
-      "type": "biginteger"
+      "type": "string"
     },
     "Szerokosc": {
-      "type": "integer"
+      "type": "string"
     },
     "Wysokosc": {
-      "type": "integer"
+      "type": "string"
     },
-    "Wymiar": {
-      "type": "enumeration",
-      "enum": [
-        "Szerokosc",
-        "Wysokosc"
-      ]
-    },
-    "sd": {
-      "type": "json"
-    },
-    "aa": {
-      "displayName": "AA",
-      "type": "component",
-      "repeatable": false,
-      "component": "aa.aa"
+    "Foto": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
