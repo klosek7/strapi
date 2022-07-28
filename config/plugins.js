@@ -194,6 +194,21 @@ module.exports = () => {
              */
             serverPublicHostname: "", // default: "".
           }
+      },
+      upload: {
+        config: {
+          provider: 'cloudinary',
+          providerOptions: {
+            cloud_name: env('dvwpxuayu'),
+            api_key: env('941978554592423'),
+            api_secret: env('GcRIwRcruhVIB9HamE_cPzZk6vQ'),
+          },
+          actionOptions: {
+            upload: {},
+            uploadStream: {},
+            delete: {},
+          },
+        },
       }
     }
   }
