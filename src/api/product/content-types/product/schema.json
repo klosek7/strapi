@@ -28,14 +28,22 @@
       "type": "string"
     },
     "Foto": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
+      ]
+    },
+    "Face": {
+      "allowedTypes": [
+        "images"
       ],
       "type": "media",
-      "multiple": true
+      "multiple": false
     }
   }
 }
