@@ -1,0 +1,65 @@
+{
+  "collectionName": "components_atrybuty_podstawowes",
+  "info": {
+    "displayName": "Podstawowe",
+    "icon": "window-maximize",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Marka": {
+      "type": "string"
+    },
+    "NazwaPrototyp": {
+      "type": "string"
+    },
+    "KodPrototyp": {
+      "type": "string"
+    },
+    "KodEANPrototypu": {
+      "type": "string"
+    },
+    "KodXL": {
+      "type": "string"
+    },
+    "KodKatalogowy": {
+      "type": "string"
+    },
+    "NazwaXL": {
+      "type": "string"
+    },
+    "NazwaKatalogowa": {
+      "type": "string"
+    },
+    "Gama": {
+      "type": "enumeration",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "N",
+        "Z"
+      ]
+    },
+    "KlasaProduktu": {
+      "type": "enumeration",
+      "enum": [
+        "Uniwersalne",
+        "Premium",
+        "Ekonomiczne"
+      ]
+    },
+    "KodCASTOkrotki": {
+      "type": "string"
+    },
+    "KodCASTO_SAP": {
+      "type": "string"
+    },
+    "KodLM": {
+      "type": "string"
+    },
+    "KodOBI": {
+      "type": "string"
+    }
+  }
+}

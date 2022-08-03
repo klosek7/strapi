@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_atrybuty_wymiarowes",
+  "info": {
+    "displayName": "Wymiarowe"
+  },
+  "options": {},
+  "attributes": {
+    "Wymiar": {
+      "type": "string"
+    },
+    "Szerokosc": {
+      "type": "string"
+    },
+    "Wysokosc": {
+      "type": "string"
+    },
+    "GrupaWymiarowa": {
+      "type": "enumeration",
+      "enum": [
+        "małe",
+        "średnie",
+        "duże",
+        "wielkoformatowe"
+      ]
+    },
+    "Ksztalt": {
+      "type": "enumeration",
+      "enum": [
+        "prostokąt",
+        "kwadrat",
+        "hexagon"
+      ]
+    }
+  }
+}

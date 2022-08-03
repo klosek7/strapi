@@ -12,38 +12,23 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Nazwa": {
-      "type": "string"
-    },
-    "Kod": {
-      "type": "string"
-    },
-    "EAN": {
-      "type": "string"
-    },
-    "Szerokosc": {
-      "type": "string"
-    },
-    "Wysokosc": {
-      "type": "string"
-    },
-    "Foto": {
+    "Face": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
-    "Face": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
+    "Podstawowe": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atrybuty.podstawowe"
+    },
+    "Wymiarowe": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atrybuty.wymiarowe"
     }
   }
 }
