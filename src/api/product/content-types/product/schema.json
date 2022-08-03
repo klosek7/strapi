@@ -20,15 +20,27 @@
         "images"
       ]
     },
-    "Podstawowe": {
-      "type": "component",
-      "repeatable": true,
-      "component": "atrybuty.podstawowe"
+    "Nazwa": {
+      "type": "string"
     },
-    "Wymiarowe": {
-      "type": "component",
-      "repeatable": true,
-      "component": "atrybuty.wymiarowe"
+    "Kod": {
+      "type": "string"
+    },
+    "EAN": {
+      "type": "string"
+    },
+    "Wymiar": {
+      "type": "string"
+    },
+    "Gama": {
+      "type": "enumeration",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "N",
+        "Z"
+      ]
     }
   }
 }
